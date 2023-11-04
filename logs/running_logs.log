@@ -1,0 +1,1196 @@
+[2023-11-02 01:22:29,706: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 01:22:29,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 01:22:29,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 01:22:29,708: INFO: common: created directory at: artifacts]
+[2023-11-02 01:22:29,708: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 01:22:29,709: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 01:22:29,710: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 01:22:29,717: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 02:38:25,703: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 02:38:25,713: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:38:25,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:38:25,714: INFO: common: created directory at: artifacts]
+[2023-11-02 02:38:25,714: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 02:38:25,715: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 02:38:25,716: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 02:38:25,716: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 02:38:25,716: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 02:38:25,717: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:38:25,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:38:25,718: INFO: common: created directory at: artifacts]
+[2023-11-02 02:38:25,718: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 02:38:25,718: ERROR: main: 'GenerateOCRResults' object has no attribute 'split_file']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 21, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_02_generate_ocr_results.py", line 15, in main
+    prepare_split.split_file()
+AttributeError: 'GenerateOCRResults' object has no attribute 'split_file'
+[2023-11-02 02:39:58,934: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 02:39:58,935: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:39:58,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:39:58,936: INFO: common: created directory at: artifacts]
+[2023-11-02 02:39:58,936: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 02:39:58,937: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 02:39:58,938: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 02:39:58,938: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 02:39:58,938: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 02:39:58,939: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:39:58,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:39:58,940: INFO: common: created directory at: artifacts]
+[2023-11-02 02:39:58,940: ERROR: main: 'function' object has no attribute 'source_dir']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 21, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_02_generate_ocr_results.py", line 15, in main
+    generate_ocr_results.read_and_cut()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 41, in read_and_cut
+    raise e
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 14, in read_and_cut
+    file_path = self.config.source_dir
+AttributeError: 'function' object has no attribute 'source_dir'
+[2023-11-02 02:41:42,494: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 02:41:42,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:41:42,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:41:42,496: INFO: common: created directory at: artifacts]
+[2023-11-02 02:41:42,496: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 02:41:42,498: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 02:41:42,498: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 02:41:42,499: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 02:41:42,499: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 02:41:42,500: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:41:42,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:41:42,500: INFO: common: created directory at: artifacts]
+[2023-11-02 02:41:42,500: ERROR: main: 'function' object has no attribute 'source_dir']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 21, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_02_generate_ocr_results.py", line 15, in main
+    generate_ocr_results.read_and_cut()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 41, in read_and_cut
+    raise e
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 14, in read_and_cut
+    file_path = self.config.source_dir
+AttributeError: 'function' object has no attribute 'source_dir'
+[2023-11-02 02:43:27,412: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 02:43:27,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:43:27,414: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:43:27,414: INFO: common: created directory at: artifacts]
+[2023-11-02 02:43:27,414: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 02:43:27,416: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 02:43:27,416: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 02:43:27,416: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 02:43:27,416: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 02:43:27,417: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 02:43:27,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 02:43:27,418: INFO: common: created directory at: artifacts]
+[2023-11-02 02:43:27,418: ERROR: main: 'function' object has no attribute 'source_dir']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 21, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_02_generate_ocr_results.py", line 15, in main
+    generate_ocr_results.read_and_cut()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 41, in read_and_cut
+    raise e
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 14, in read_and_cut
+    file_path = self.config.source_dir
+AttributeError: 'function' object has no attribute 'source_dir'
+[2023-11-02 03:28:58,489: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 03:28:58,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:28:58,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:28:58,496: INFO: common: created directory at: artifacts]
+[2023-11-02 03:28:58,496: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 03:28:58,496: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 03:28:58,496: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 03:28:58,496: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 03:28:58,496: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 03:28:58,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:28:58,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:28:58,496: INFO: common: created directory at: artifacts]
+[2023-11-02 03:28:58,496: ERROR: main: 'function' object has no attribute 'source_dir']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 21, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_02_generate_ocr_results.py", line 15, in main
+    generate_ocr_results.read_and_cut()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 41, in read_and_cut
+    raise e
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\generate_ocr_results.py", line 14, in read_and_cut
+    file_path = self.config.source_dir
+AttributeError: 'function' object has no attribute 'source_dir'
+[2023-11-02 03:32:00,713: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 03:32:00,725: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:32:00,725: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:32:00,725: INFO: common: created directory at: artifacts]
+[2023-11-02 03:32:00,725: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 03:32:00,725: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 03:32:00,725: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 03:32:00,725: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 03:32:00,725: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 03:32:00,729: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:32:00,730: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:32:00,730: INFO: common: created directory at: artifacts]
+[2023-11-02 03:32:00,730: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-02 03:32:28,355: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-02 03:57:41,423: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 03:57:41,433: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:57:41,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:57:41,433: INFO: common: created directory at: artifacts]
+[2023-11-02 03:57:41,433: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 03:57:41,433: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 03:57:41,443: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 03:57:41,443: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 03:57:41,443: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 03:57:41,445: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:57:41,448: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:57:41,448: INFO: common: created directory at: artifacts]
+[2023-11-02 03:57:41,448: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-02 03:58:17,023: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-02 03:58:17,023: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-02 03:58:17,023: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 03:58:17,026: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:58:17,026: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:58:17,026: INFO: common: created directory at: artifacts]
+[2023-11-02 03:58:17,026: ERROR: main: 'ConfigurationManager' object has no attribute 'extract_candididates_config']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 33, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_03_extract_candidates.py", line 13, in main
+    extract_candididates_config = config.extract_candididates_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'extract_candididates_config'
+[2023-11-02 03:59:09,423: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 03:59:09,424: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:59:09,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:59:09,424: INFO: common: created directory at: artifacts]
+[2023-11-02 03:59:09,424: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 03:59:09,424: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 03:59:09,424: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 03:59:09,424: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 03:59:09,424: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 03:59:09,430: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:59:09,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:59:09,430: INFO: common: created directory at: artifacts]
+[2023-11-02 03:59:09,430: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-02 03:59:44,498: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-02 03:59:44,498: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-02 03:59:44,498: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 03:59:44,498: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 03:59:44,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 03:59:44,503: INFO: common: created directory at: artifacts]
+[2023-11-02 03:59:44,511: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-02 03:59:44,511: ERROR: main: "'ConfigBox' object has no attribute 'source_dir'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'source_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'source_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'source_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'source_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 33, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_03_extract_candidates.py", line 13, in main
+    extract_candidates_config = config.extract_candidates_config()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\config\configuration.py", line 48, in extract_candidates_config
+    source_dir=config.source_dir,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_dir'"
+[2023-11-02 04:03:15,069: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 04:03:15,069: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:03:15,069: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:03:15,069: INFO: common: created directory at: artifacts]
+[2023-11-02 04:03:15,069: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 04:03:15,073: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 04:03:15,073: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 04:03:15,073: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 04:03:15,073: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 04:03:15,073: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:03:15,073: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:03:15,073: INFO: common: created directory at: artifacts]
+[2023-11-02 04:03:15,073: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-02 04:04:12,828: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-02 04:04:12,828: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-02 04:04:12,828: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 04:04:12,833: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:04:12,836: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:04:12,836: INFO: common: created directory at: artifacts]
+[2023-11-02 04:04:12,836: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-02 04:04:12,836: ERROR: main: 'str' object has no attribute 'glob']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 33, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_03_extract_candidates.py", line 15, in main
+    extract_candidates.candidates_for_all_ocr()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\extract_candidates.py", line 67, in candidates_for_all_ocr
+    annotation_files = list(ocr_path.glob("*.json"))
+AttributeError: 'str' object has no attribute 'glob'
+[2023-11-02 04:05:21,858: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 04:05:21,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:05:21,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:05:21,863: INFO: common: created directory at: artifacts]
+[2023-11-02 04:05:21,867: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 04:05:21,867: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 04:05:21,867: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 04:05:21,867: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 04:05:21,867: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 04:05:21,867: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:05:21,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:05:21,867: INFO: common: created directory at: artifacts]
+[2023-11-02 04:05:21,867: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-02 04:05:21,918: ERROR: main: 'charmap' codec can't decode byte 0x8f in position 462: character maps to <undefined>]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 33, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_03_extract_candidates.py", line 15, in main
+    extract_candidates.candidates_for_all_ocr()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\extract_candidates.py", line 72, in candidates_for_all_ocr
+    data = json.load(f)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 462: character maps to <undefined>
+[2023-11-02 04:07:32,803: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 04:07:32,808: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:07:32,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:07:32,808: INFO: common: created directory at: artifacts]
+[2023-11-02 04:07:32,808: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 04:07:32,808: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 04:07:32,810: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 04:07:32,810: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 04:07:32,810: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 04:07:32,810: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:07:32,810: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:07:32,810: INFO: common: created directory at: artifacts]
+[2023-11-02 04:07:32,810: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-02 04:08:09,196: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-02 04:08:09,203: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-02 04:22:10,343: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-02 04:22:10,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:22:10,347: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:22:10,347: INFO: common: created directory at: artifacts]
+[2023-11-02 04:22:10,349: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-02 04:22:10,349: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-02 04:22:10,351: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-02 04:22:10,351: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-02 04:22:10,351: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-02 04:22:10,352: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:22:10,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:22:10,353: INFO: common: created directory at: artifacts]
+[2023-11-02 04:22:10,353: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-02 04:22:50,156: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-02 04:22:50,156: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-02 04:22:50,156: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-02 04:22:50,158: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-02 04:22:50,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-02 04:22:50,158: INFO: common: created directory at: artifacts]
+[2023-11-02 04:22:50,168: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-02 04:23:35,797: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-02 04:23:35,804: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-03 15:12:47,338: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-03 15:12:47,343: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:12:47,351: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:12:47,352: INFO: common: created directory at: artifacts]
+[2023-11-03 15:12:47,353: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-03 15:12:47,363: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-03 15:12:47,363: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-03 15:12:47,363: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-03 15:12:47,363: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-03 15:12:47,365: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:12:47,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:12:47,366: INFO: common: created directory at: artifacts]
+[2023-11-03 15:12:47,367: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-03 15:13:16,292: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-03 15:13:16,293: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-03 15:13:16,293: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-03 15:13:16,295: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:13:16,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:13:16,297: INFO: common: created directory at: artifacts]
+[2023-11-03 15:13:16,297: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-03 15:13:39,799: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-03 15:13:39,800: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-03 15:27:08,384: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-03 15:27:08,389: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:27:08,390: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:27:08,390: INFO: common: created directory at: artifacts]
+[2023-11-03 15:27:08,391: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-03 15:27:08,392: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-03 15:27:08,393: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-03 15:27:08,393: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-03 15:27:08,393: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-03 15:27:08,394: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:27:08,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:27:08,397: INFO: common: created directory at: artifacts]
+[2023-11-03 15:27:08,397: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-03 15:27:36,391: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-03 15:27:36,392: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-03 15:27:36,392: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-03 15:27:36,393: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:27:36,394: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:27:36,396: INFO: common: created directory at: artifacts]
+[2023-11-03 15:27:36,397: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-03 15:27:41,758: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-03 15:27:41,758: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-03 15:27:41,758: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-03 15:27:41,759: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 15:27:41,760: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 15:27:41,760: INFO: common: created directory at: artifacts]
+[2023-11-03 15:27:41,761: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-03 15:28:05,548: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-03 15:28:05,550: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-03 17:03:12,394: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:03:12,406: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:03:12,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:03:12,407: INFO: common: created directory at: artifacts]
+[2023-11-03 17:03:12,407: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:03:12,407: ERROR: main: "'ConfigBox' object has no attribute 'candidate_dir'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'candidate_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'candidate_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'candidate_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'candidate_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'candidate_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'candidate_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'candidate_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 13, in main
+    train_model_config = config.train_model_config()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\config\configuration.py", line 76, in train_model_config
+    candidate_dir=config.candidate_dir,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'candidate_dir'"
+[2023-11-03 17:03:43,125: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:03:43,127: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:03:43,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:03:43,127: INFO: common: created directory at: artifacts]
+[2023-11-03 17:03:43,129: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:03:43,129: ERROR: main: "'ConfigBox' object has no attribute 'batch_szie'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'BATCH_SZIE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'BATCH_SZIE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'BATCH_SZIE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'BATCH_SZIE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'batch_szie'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'batch_szie'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'batch_szie'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 13, in main
+    train_model_config = config.train_model_config()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\config\configuration.py", line 83, in train_model_config
+    batch_size=self.params.BATCH_SZIE,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'batch_szie'"
+[2023-11-03 17:04:55,832: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:04:55,834: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:04:55,835: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:04:55,836: INFO: common: created directory at: artifacts]
+[2023-11-03 17:04:55,836: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:04:55,836: ERROR: main: "'ConfigBox' object has no attribute 'epoch_size'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'EPOCH_SIZE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'EPOCH_SIZE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'EPOCH_SIZE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'EPOCH_SIZE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 592, in box.box.Box.__getitem__
+KeyError: 'epoch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 631, in box.box.Box.__getattr__
+  File "box\\box.py", line 619, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'epoch_size'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'epoch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 13, in main
+    train_model_config = config.train_model_config()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\config\configuration.py", line 84, in train_model_config
+    epochs=self.params.EPOCH_SIZE,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 647, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'epoch_size'"
+[2023-11-03 17:05:30,938: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:05:30,940: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:05:30,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:05:30,941: INFO: common: created directory at: artifacts]
+[2023-11-03 17:05:30,941: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:05:30,942: ERROR: main: document_dataset() takes 2 positional arguments but 3 were given]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 106, in train_model
+    train_data = self.document_dataset(self.config, 'train')
+TypeError: document_dataset() takes 2 positional arguments but 3 were given
+[2023-11-03 17:06:32,384: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:06:32,387: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:06:32,388: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:06:32,388: INFO: common: created directory at: artifacts]
+[2023-11-03 17:06:32,388: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:06:32,388: ERROR: main: 'module' object is not callable]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 103, in train_model
+    train_data = dataset(self.config, 'train')
+TypeError: 'module' object is not callable
+[2023-11-03 17:07:10,548: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:07:10,550: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:07:10,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:07:10,551: INFO: common: created directory at: artifacts]
+[2023-11-03 17:07:10,551: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:07:10,552: ERROR: main: unsupported operand type(s) for /: 'str' and 'str']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 103, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 16, in __init__
+    cached_data_path = self.config.cached_data_dir / f"cached_data_{split_name}.pickle"
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[2023-11-03 17:08:01,561: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:08:01,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:08:01,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:08:01,564: INFO: common: created directory at: artifacts]
+[2023-11-03 17:08:01,564: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:08:01,564: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:08:01,564: ERROR: main: unsupported operand type(s) for /: 'str' and 'str']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 103, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 31, in __init__
+    annotation, classes_count, class_mapping = annotation_parser.get_data(self.config, split_name)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\annotation_parser.py", line 13, in get_data
+    split_file_path = config.split_dir / f"{split_name}.txt"
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[2023-11-03 17:08:47,587: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:08:47,588: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:08:47,589: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:08:47,590: INFO: common: created directory at: artifacts]
+[2023-11-03 17:08:47,590: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:08:47,590: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:08:47,600: ERROR: main: 'str' object has no attribute 'glob']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 103, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 31, in __init__
+    annotation, classes_count, class_mapping = annotation_parser.get_data(self.config, split_name)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\annotation_parser.py", line 17, in get_data
+    annotation_files = list(config.ground_truth_dir.glob("*.json"))
+AttributeError: 'str' object has no attribute 'glob'
+[2023-11-03 17:09:04,649: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:09:04,651: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:09:04,651: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:09:04,651: INFO: common: created directory at: artifacts]
+[2023-11-03 17:09:04,652: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:09:04,652: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:09:06,375: INFO: candidate: Error in processing candidate: 20080310_Quebec Government Office_Le, Annie_Short-Form : Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\candidate.py", line 12, in attach_candidate
+    candidate_json = candidate_path / (file_name + ".json")
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+]
+[2023-11-03 17:09:06,377: INFO: Neighbour: Error in finding neighbour: 20080310_Quebec Government Office_Le, Annie_Short-Form : Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\Neighbour.py", line 59, in attach_neighbour
+    ocr_json = ocr_path / (file_name + ".json")
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+]
+[2023-11-03 17:09:06,378: INFO: operations: Error in normalizing position: 20080310_Quebec Government Office_Le, Annie_Short-Form : Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\operations.py", line 65, in normalize_positions
+    for neh in cd['neighbours']:
+KeyError: 'neighbours'
+]
+[2023-11-03 17:09:06,379: ERROR: main: 'neighbours']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 103, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 37, in __init__
+    _data = preprocess.parse_input(annotation, class_mapping, config.neighbours, self.vocab)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\preprocess.py", line 70, in parse_input
+    fields[field]['true_candidates'][0]['neighbours'],
+KeyError: 'neighbours'
+[2023-11-03 17:12:21,493: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:12:21,495: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:12:21,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:12:21,497: INFO: common: created directory at: artifacts]
+[2023-11-03 17:12:21,497: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:12:21,497: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:12:26,889: INFO: preprocess: (2751, 1)]
+[2023-11-03 17:12:26,889: INFO: dataset: Saving Cache..]
+[2023-11-03 17:12:26,899: INFO: dataset: Done !!]
+[2023-11-03 17:12:26,914: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:12:30,364: INFO: preprocess: (1382, 1)]
+[2023-11-03 17:12:30,365: INFO: dataset: Saving Cache..]
+[2023-11-03 17:12:30,369: INFO: dataset: Done !!]
+[2023-11-03 17:12:30,404: ERROR: main: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 111, in train_model
+    relie = Model(VOCAB_SIZE, self.config.embedding_size, self.config.neighbours, self.config.heads)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 19, in __init__
+    self.neighbour_embeddings = NeighbourEmbedding(vocab_size, embedding_dim)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 13, in __init__
+    self.word_embed = nn.Embedding(vocab_size, dimension)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+[2023-11-03 17:24:06,573: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:24:06,576: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:24:06,577: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:24:06,577: INFO: common: created directory at: artifacts]
+[2023-11-03 17:24:06,577: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:24:06,577: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:24:06,604: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:24:06,621: ERROR: main: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 111, in train_model
+    relie = Model(VOCAB_SIZE, self.config.embedding_size, self.config.neighbours, self.config.heads)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 19, in __init__
+    self.neighbour_embeddings = NeighbourEmbedding(vocab_size, embedding_dim)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 13, in __init__
+    self.word_embed = nn.Embedding(vocab_size, dimension)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+[2023-11-03 17:25:59,005: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:25:59,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:25:59,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:25:59,009: INFO: common: created directory at: artifacts]
+[2023-11-03 17:25:59,009: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:25:59,009: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:25:59,017: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:25:59,023: INFO: train: This is vocab size 
+
+
+
+]
+[2023-11-03 17:25:59,024: ERROR: main: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 112, in train_model
+    relie = Model(VOCAB_SIZE, self.config.embedding_size, self.config.neighbours, self.config.heads)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 19, in __init__
+    self.neighbour_embeddings = NeighbourEmbedding(vocab_size, embedding_dim)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 13, in __init__
+    self.word_embed = nn.Embedding(vocab_size, dimension)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+[2023-11-03 17:26:27,164: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:26:27,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:26:27,167: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:26:27,167: INFO: common: created directory at: artifacts]
+[2023-11-03 17:26:27,167: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:26:27,168: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:26:27,175: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:26:27,197: ERROR: main: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 112, in train_model
+    relie = Model(VOCAB_SIZE, self.config.embedding_size, self.config.neighbours, self.config.heads)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 19, in __init__
+    self.neighbour_embeddings = NeighbourEmbedding(vocab_size, embedding_dim)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 13, in __init__
+    self.word_embed = nn.Embedding(vocab_size, dimension)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+[2023-11-03 17:29:53,414: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:29:53,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:29:53,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:29:53,417: INFO: common: created directory at: artifacts]
+[2023-11-03 17:29:53,418: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:29:53,418: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:29:53,426: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:29:53,430: INFO: train: This is vocab size 
+
+
+
+ 16]
+[2023-11-03 17:29:53,431: ERROR: main: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 112, in train_model
+    relie = Model(VOCAB_SIZE, self.config.embedding_size, self.config.neighbours, self.config.heads)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 19, in __init__
+    self.neighbour_embeddings = NeighbourEmbedding(vocab_size, embedding_dim)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 13, in __init__
+    self.word_embed = nn.Embedding(vocab_size, dimension)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\sparse.py", line 142, in __init__
+    self.weight = Parameter(torch.empty((num_embeddings, embedding_dim), **factory_kwargs),
+TypeError: empty() received an invalid combination of arguments - got (tuple, dtype=NoneType, device=NoneType), but expected one of:
+ * (tuple of ints size, *, tuple of names names, torch.memory_format memory_format, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (tuple of ints size, *, torch.memory_format memory_format, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+
+[2023-11-03 17:30:41,809: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:30:41,811: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:30:41,812: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:30:41,812: INFO: common: created directory at: artifacts]
+[2023-11-03 17:30:41,813: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:30:41,813: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:30:41,820: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:30:54,175: ERROR: main: 'SequentialSampler' object has no attribute 'num_samples']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 113, in train_model
+    history = self.train(relie, training_data, validation_data, self.config.epochs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 63, in train
+    val_accuracy, val_loss, val_recall = evaluate(model, val_dataloader, criterion)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\evaluate.py", line 36, in evaluate
+    val_loss = val_loss / val_dataloader.sampler.num_samples
+AttributeError: 'SequentialSampler' object has no attribute 'num_samples'
+[2023-11-03 17:34:36,196: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:34:36,197: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:34:36,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:34:36,199: INFO: common: created directory at: artifacts]
+[2023-11-03 17:34:36,199: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:34:36,199: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:34:36,207: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:34:47,367: ERROR: main: 'SequentialSampler' object has no attribute 'num_samples']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 113, in train_model
+    history = self.train(relie, training_data, validation_data, self.config.epochs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 63, in train
+    val_accuracy, val_loss, val_recall = evaluate(model, val_dataloader, criterion)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\evaluate.py", line 36, in evaluate
+    val_loss = val_loss / val_dataloader.sampler.num_samples
+AttributeError: 'SequentialSampler' object has no attribute 'num_samples'
+[2023-11-03 17:36:21,837: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:36:21,839: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:36:21,840: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:36:21,840: INFO: common: created directory at: artifacts]
+[2023-11-03 17:36:21,840: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:36:21,841: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:36:21,849: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:36:32,072: ERROR: main: Parent directory utils/output does not exist.]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 113, in train_model
+    history = self.train(relie, training_data, validation_data, self.config.epochs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 85, in train
+    torch.save(model, 'utils/output/model.pth')
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory utils/output does not exist.
+[2023-11-03 17:39:48,923: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:39:48,928: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:39:48,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:39:48,929: INFO: common: created directory at: artifacts]
+[2023-11-03 17:39:48,930: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:39:48,930: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:39:48,938: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:39:58,773: ERROR: main: Parent directory artifacts\best_model does not exist.]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 114, in train_model
+    history = self.train(relie, training_data, validation_data, self.config.epochs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 86, in train
+    torch.save(model, Path(self.config.best_model_dir)/'model.pth')
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory artifacts\best_model does not exist.
+[2023-11-03 17:40:52,988: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:40:52,990: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:40:52,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:40:52,992: INFO: common: created directory at: artifacts]
+[2023-11-03 17:40:52,992: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:40:52,992: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:40:53,000: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-03 17:42:18,028: INFO: train: {'training_loss': [0.09140833024028994, 0.0521825096616695, 0.04529976229765262, 0.04242117256992109, 0.041461724222578725, 0.04164140784654848, 0.04185115200015373, 0.040673538888500775, 0.04082821138580701, 0.03936326076685895], 'training_accuracy': [0.9283896764812796, 0.9283896764812796, 0.9283896764812796, 0.9360232642675391, 0.9560159941839331, 0.9563794983642312, 0.9563794983642312, 0.9563794983642312, 0.9567430025445293, 0.9571065067248273], 'training_recall': [0.0, 0.0, 0.0, 0.41116751269035534, 0.9847715736040609, 0.9847715736040609, 0.9898477157360406, 0.9898477157360406, 0.9949238578680203, 1.0], 'validation_loss': [0.10033272542787228, 0.10044359582238432, 0.10868260505027644, 0.19324241675767212, 0.11937460794024117, 0.13025732762758976, 0.0987993989030456, 0.09871896188813983, 0.10414955317445926, 0.1063916701336584], 'validation_accuracy': [0.9283646888567294, 0.9283646888567294, 0.9283646888567294, 0.8733719247467439, 0.8668596237337193, 0.8632416787264834, 0.8610709117221418, 0.8574529667149059, 0.8574529667149059, 0.8661360347322721], 'validation_recall': [0.0, 0.0, 0.0, 0.41116751269035534, 0.9847715736040609, 0.9847715736040609, 0.9898477157360406, 0.9898477157360406, 0.9949238578680203, 1.0]}]
+[2023-11-03 17:42:18,031: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-03 17:43:43,729: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:43:43,730: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:43:43,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:43:43,732: INFO: common: created directory at: artifacts]
+[2023-11-03 17:43:43,732: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:43:43,733: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:43:43,733: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\train.txt']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 106, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 31, in __init__
+    annotation, classes_count, class_mapping = annotation_parser.get_data(self.config, split_name)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\annotation_parser.py", line 15, in get_data
+    with open(split_file_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\train.txt'
+[2023-11-03 17:44:01,246: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-03 17:44:01,248: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:44:01,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:44:01,250: INFO: common: created directory at: artifacts]
+[2023-11-03 17:44:01,257: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-03 17:44:01,266: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-03 17:44:01,267: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-03 17:44:01,267: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-03 17:44:01,267: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-03 17:44:01,269: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:44:01,270: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:44:01,270: INFO: common: created directory at: artifacts]
+[2023-11-03 17:44:01,271: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-03 17:44:30,219: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-03 17:44:30,220: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-03 17:44:30,220: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-03 17:44:30,222: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:44:30,223: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:44:30,223: INFO: common: created directory at: artifacts]
+[2023-11-03 17:44:30,224: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-03 17:44:36,711: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-03 17:44:36,711: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-03 17:44:36,712: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-03 17:44:36,714: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:44:36,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:44:36,716: INFO: common: created directory at: artifacts]
+[2023-11-03 17:44:36,716: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-03 17:44:58,750: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-03 17:44:58,751: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-03 17:44:58,751: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-03 17:44:58,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-03 17:44:58,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-03 17:44:58,754: INFO: common: created directory at: artifacts]
+[2023-11-03 17:44:58,754: INFO: common: created directory at: artifacts/train_model]
+[2023-11-03 17:44:58,754: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:45:03,914: INFO: preprocess: (2751, 1)]
+[2023-11-03 17:45:03,914: INFO: dataset: Saving Cache..]
+[2023-11-03 17:45:03,923: INFO: dataset: Done !!]
+[2023-11-03 17:45:03,938: INFO: dataset: Preprocessed data not available]
+[2023-11-03 17:45:06,355: INFO: preprocess: (1382, 1)]
+[2023-11-03 17:45:06,355: INFO: dataset: Saving Cache..]
+[2023-11-03 17:45:06,360: INFO: dataset: Done !!]
+[2023-11-03 17:46:29,008: INFO: train: {'training_loss': [0.08222879269470094, 0.04926627393267231, 0.04414161848359153, 0.044161098163289884, 0.04163828893334096, 0.040081392199431826, 0.039447624985343106, 0.03929832906651665, 0.040643757808587394, 0.039464750081146784], 'training_accuracy': [0.9378407851690295, 0.9516539440203562, 0.9541984732824428, 0.9541984732824428, 0.9571065067248273, 0.9571065067248273, 0.9571065067248273, 0.9574700109051254, 0.9563794983642312, 0.9571065067248273], 'training_recall': [0.5736040609137056, 0.9137055837563451, 0.9137055837563451, 0.8883248730964467, 0.9746192893401016, 0.9898477157360406, 0.9898477157360406, 0.9949238578680203, 0.9847715736040609, 1.0], 'validation_loss': [0.08381479784311234, 0.0601180687132032, 0.06207873411483351, 0.06777108933995801, 0.06187158146283964, 0.06664966678034748, 0.06772932078848208, 0.07438322565064788, 0.07380877865623958, 0.06961217206724557], 'validation_accuracy': [0.9232995658465991, 0.9413892908827786, 0.9283646888567294, 0.9399421128798843, 0.9421128798842258, 0.9334298118668596, 0.9413892908827786, 0.9421128798842258, 0.9261939218523878, 0.9399421128798843], 'validation_recall': [0.5736040609137056, 0.9137055837563451, 0.9137055837563451, 0.8883248730964467, 0.9746192893401016, 0.9898477157360406, 0.9898477157360406, 0.9949238578680203, 0.9847715736040609, 1.0]}]
+[2023-11-03 17:46:29,012: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-04 02:42:01,772: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-04 02:42:01,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 02:42:01,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 02:42:01,787: INFO: common: created directory at: artifacts]
+[2023-11-04 02:42:01,787: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-04 02:42:01,804: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-04 02:42:01,804: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-04 02:42:01,804: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-04 02:42:01,804: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-04 02:42:01,804: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 02:42:01,804: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 02:42:01,804: INFO: common: created directory at: artifacts]
+[2023-11-04 02:42:01,804: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-04 02:42:35,184: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-04 02:42:35,184: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-04 02:42:35,184: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-04 02:42:35,184: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 02:42:35,184: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 02:42:35,184: INFO: common: created directory at: artifacts]
+[2023-11-04 02:42:35,184: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-04 02:42:41,837: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-04 02:42:41,837: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-04 02:42:41,837: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-04 02:42:41,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 02:42:41,852: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 02:42:41,852: INFO: common: created directory at: artifacts]
+[2023-11-04 02:42:41,852: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-04 02:43:03,371: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-04 02:43:03,371: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-04 02:43:03,371: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-04 02:43:03,371: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 02:43:03,371: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 02:43:03,371: INFO: common: created directory at: artifacts]
+[2023-11-04 02:43:03,371: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 02:43:03,371: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 02:43:03,434: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 02:44:22,926: INFO: train:    training_loss  training_accuracy  training_recall  validation_loss  validation_accuracy  validation_recall
+0       0.086773           0.937477         0.395939         0.104301             0.886397           0.395939
+1       0.049600           0.948746         0.918782         0.130655             0.921129           0.918782
+2       0.046089           0.952381         0.944162         0.093213             0.920405           0.944162
+3       0.042858           0.954925         0.984772         0.099812             0.919682           0.984772
+4       0.042174           0.953835         0.984772         0.104797             0.892909           0.984772
+5       0.041050           0.957107         0.984772         0.106916             0.847323           0.984772
+6       0.042010           0.956016         0.984772         0.130350             0.929812           0.984772
+7       0.041296           0.956379         0.984772         0.110621             0.910999           0.984772
+8       0.039788           0.957107         0.994924         0.097689             0.847323           0.994924
+9       0.039403           0.956743         0.994924         0.131980             0.868307           0.994924]
+[2023-11-04 02:44:22,937: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-04 03:05:45,395: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-04 03:05:45,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:05:45,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:05:45,395: INFO: common: created directory at: artifacts]
+[2023-11-04 03:05:45,395: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:05:45,395: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:05:45,444: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:07:12,609: ERROR: main: ufunc 'add' did not contain a loop with signature matching types (dtype('<U1'), dtype('float64')) -> None]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 57, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 125, in train_model
+    logger.info("\n"+pd.DataFrame(history))
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\arraylike.py", line 190, in __radd__
+    return self._arith_method(other, roperator.radd)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\frame.py", line 7644, in _arith_method
+    new_data = self._dispatch_frame_op(other, op, axis=axis)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\frame.py", line 7676, in _dispatch_frame_op
+    bm = self._mgr.apply(array_op, right=right)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\internals\managers.py", line 352, in apply
+    applied = b.apply(f, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\internals\blocks.py", line 366, in apply
+    result = func(self.values, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\ops\array_ops.py", line 285, in arithmetic_op
+    res_values = _na_arithmetic_op(left, right, op)  # type: ignore[arg-type]
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\ops\array_ops.py", line 220, in _na_arithmetic_op
+    result = func(left, right)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\pandas\core\roperator.py", line 11, in radd
+    return right + left
+numpy.core._exceptions._UFuncNoLoopError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U1'), dtype('float64')) -> None
+[2023-11-04 03:08:03,553: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-04 03:08:03,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:08:03,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:08:03,569: INFO: common: created directory at: artifacts]
+[2023-11-04 03:08:03,569: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:08:03,569: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:08:03,620: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:09:30,128: INFO: train:    training_loss  training_accuracy  training_recall  training_precision  ...  validation_accuracy  validation_recall  validation_precision  validation_f1
+0       0.089024           0.945111         0.522843            0.643750  ...             0.910999           0.585859              0.414286       0.485356
+1       0.045695           0.952017         0.923858            0.608696  ...             0.916787           0.060606              0.214286       0.094488
+2       0.042150           0.956379         0.979695            0.624595  ...             0.908828           0.181818              0.285714       0.222222
+3       0.041202           0.955289         0.989848            0.617089  ...             0.926194           0.040404              0.363636       0.072727
+4       0.043470           0.953835         0.944162            0.615894  ...             0.907381           0.080808              0.177778       0.111111
+5       0.041123           0.956379         0.979695            0.624595  ...             0.908828           0.090909              0.200000       0.125000
+6       0.040798           0.956016         0.984772            0.621795  ...             0.853835           0.565657              0.260465       0.356688
+7       0.040620           0.956743         0.994924            0.624204  ...             0.910275           0.101010              0.222222       0.138889
+8       0.040646           0.956743         0.994924            0.624204  ...             0.910275           0.090909              0.209302       0.126761
+9       0.040683           0.956743         0.994924            0.624204  ...             0.910275           0.101010              0.222222       0.138889
+
+[10 rows x 10 columns]]
+[2023-11-04 03:09:30,149: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-04 03:11:24,152: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-04 03:11:24,152: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:11:24,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:11:24,152: INFO: common: created directory at: artifacts]
+[2023-11-04 03:11:24,152: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:11:24,152: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:11:24,200: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:12:42,714: INFO: train:    training_recall  training_precision  training_f1  validation_recall  validation_precision  validation_f1
+0         0.350254            0.565574     0.432602           0.737374              0.629310       0.679070
+1         0.934010            0.609272     0.737475           0.777778              0.445087       0.566176
+2         0.969543            0.606349     0.746094           0.787879              0.490566       0.604651
+3         1.000000            0.619497     0.765049           0.787879              0.487500       0.602317
+4         1.000000            0.619497     0.765049           0.787879              0.490566       0.604651
+5         1.000000            0.619497     0.765049           0.797980              0.503185       0.617187
+6         1.000000            0.619497     0.765049           0.777778              0.506579       0.613546
+7         1.000000            0.619497     0.765049           0.777778              0.520270       0.623482
+8         0.994924            0.618297     0.762646           0.868687              0.249275       0.387387
+9         0.979695            0.614650     0.755382           0.828283              0.468571       0.598540]
+[2023-11-04 03:12:42,729: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]

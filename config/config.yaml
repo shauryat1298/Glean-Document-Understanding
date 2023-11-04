@@ -1,0 +1,30 @@
+artifacts_root: artifacts
+
+prepare_split:
+  root_dir: artifacts/prepare_split
+  source_dir: vrdu-main/vrdu-main/registration-form/few_shot-splits/FARA-lv1-single_Short-Form-train_200-test_300-valid_100-SD_2.json
+  save_dir: artifacts/prepare_split
+
+generate_ocr_results:
+  root_dir: artifacts/generate_ocr_results
+  source_dir: vrdu-main/vrdu-main/registration-form/main/dataset.jsonl.gz
+  save_dir: artifacts/generate_ocr_results
+
+ground_truth_annotations:
+  root_dir: artifacts/ground_truth_annotations
+  source_dir: vrdu-main/vrdu-main/registration-form/main/dataset.jsonl.gz
+  save_dir: artifacts/ground_truth_annotations
+
+extract_candidates:
+  root_dir: artifacts/extract_candidates
+  ocr_dir: artifacts/generate_ocr_results
+  candidates_dir: artifacts/extract_candidates
+
+train_model:
+  root_dir: artifacts/train_model
+  cached_data_dir: artifacts/cached_data
+  ground_truth_dir: artifacts/ground_truth_annotations
+  candidates_dir: artifacts/extract_candidates
+  ocr_dir: artifacts/generate_ocr_results
+  split_dir: artifacts/prepare_split
+  best_model: artifacts/best_model
