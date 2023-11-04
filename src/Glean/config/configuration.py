@@ -1,6 +1,6 @@
 from src.Glean.constants import *
 from src.Glean.utils.common import read_yaml, create_directories
-from src.Glean.entity.config_entity import PrepareSplitConfig, GenerateOCRResultsConfig, GroundTruthAnnotationsConfig, ExtractCandidatesConfig, TrainModelConfig
+from src.Glean.entity.config_entity import PrepareSplitConfig, GenerateOCRResultsConfig, GroundTruthAnnotationsConfig, ExtractCandidatesConfig, TrainModelConfig, EvaluationConfig
 import os
 
 class ConfigurationManager:
@@ -87,3 +87,14 @@ class ConfigurationManager:
         )
 
         return train_model_config
+    
+    def evaluation_config(self) -> EvaluationConfig:
+        config = self.config.evaluate_model
+
+        create_directories([config.root_dir])
+
+        evalutate_config = EvaluationConfig(
+            root_dir=config.root_dir,
+            best_model_dir=config.best_model
+        )
+        return evalutate_config

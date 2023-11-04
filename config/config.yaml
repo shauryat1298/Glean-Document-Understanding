@@ -28,3 +28,7 @@ train_model:
   ocr_dir: artifacts/generate_ocr_results
   split_dir: artifacts/prepare_split
   best_model: artifacts/best_model
+
+evaluate_model:
+  root_dir: artifacts/evaluation
+  best_model: artifacts/best_model

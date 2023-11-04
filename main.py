@@ -4,6 +4,7 @@ from src.Glean.pipeline.stage_02_generate_ocr_results import GenerateOCRResultsP
 from src.Glean.pipeline.stage_04_ground_truth_annotations import GroundTruthAnnotationsPipeline
 from src.Glean.pipeline.stage_03_extract_candidates import ExtractCandidatesPipeline
 from src.Glean.pipeline.stage_05_train import TrainModelPipeline
+from src.Glean.pipeline.stage_06_evaluation import EvaluationPipeline
 
 # STAGE_NAME = "Prepare Split"
 
@@ -49,11 +50,22 @@ from src.Glean.pipeline.stage_05_train import TrainModelPipeline
 #     logger.exception(e)
 #     raise e
 
-STAGE_NAME = "Train Model"
+# STAGE_NAME = "Train Model"
+
+# try:
+#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+#     obj = TrainModelPipeline()
+#     obj.main()
+#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+# except Exception as e:
+#     logger.exception(e)
+#     raise e
+
+STAGE_NAME = "Evaluation"
 
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-    obj = TrainModelPipeline()
+    obj = EvaluationPipeline()
     obj.main()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
 except Exception as e:

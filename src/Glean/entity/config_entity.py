@@ -41,3 +41,8 @@ class TrainModelConfig:
     batch_size: int
     epochs: int
     lr: float
+
+@dataclass(frozen=True)
+class EvaluationConfig:
+    root_dir: Path
+    best_model_dir: Path

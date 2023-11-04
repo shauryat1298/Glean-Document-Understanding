@@ -1194,3 +1194,55 @@ x======x]
 [2023-11-04 03:12:42,729: INFO: main: >>>>>> stage Train Model completed <<<<<<
 
 x======x]
+[2023-11-04 03:30:00,976: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:30:00,978: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:30:00,979: INFO: common: created directory at: artifacts]
+[2023-11-04 03:30:00,980: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:30:15,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:30:15,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:30:15,383: INFO: common: created directory at: artifacts]
+[2023-11-04 03:30:15,384: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:30:15,384: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:31:25,214: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:31:25,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:31:25,216: INFO: common: created directory at: artifacts]
+[2023-11-04 03:31:25,217: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:31:25,218: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 03:32:11,998: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 03:32:12,000: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 03:32:12,000: INFO: common: created directory at: artifacts]
+[2023-11-04 03:32:12,001: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 03:32:12,002: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 04:27:47,899: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 04:27:47,915: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 04:27:47,915: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 04:27:47,915: INFO: common: created directory at: artifacts]
+[2023-11-04 04:27:47,915: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 04:27:47,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 04:27:47,917: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 04:27:47,917: INFO: common: created directory at: artifacts]
+[2023-11-04 04:27:47,917: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 04:27:47,917: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 04:27:47,962: ERROR: main: 'EvaluationConfig' object has no attribute 'batch_size']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 69, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_06_evaluation.py", line 15, in main
+    evaluation.evaluate_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\model_evaluation.py", line 57, in evaluate_model
+    test_data = data.DataLoader(doc_data, batch_size=self.config.batch_size, shuffle=True)
+AttributeError: 'EvaluationConfig' object has no attribute 'batch_size'
+[2023-11-04 04:28:58,251: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 04:28:58,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 04:28:58,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 04:28:58,251: INFO: common: created directory at: artifacts]
+[2023-11-04 04:28:58,251: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 04:28:58,268: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 04:28:58,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 04:28:58,268: INFO: common: created directory at: artifacts]
+[2023-11-04 04:28:58,268: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 04:28:58,268: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 04:29:01,355: INFO: model_evaluation: Test Accuracy: 0.8060781476121563 Test Loss: 0.1238117190107805 Test Recall: 0.8888888888888888 Test Precision 0.25507246376811593 Test F1 0.3963963963963964]
+[2023-11-04 04:29:01,355: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]
