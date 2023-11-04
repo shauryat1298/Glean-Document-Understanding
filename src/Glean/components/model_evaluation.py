@@ -6,6 +6,9 @@ from pathlib import Path
 import torch
 from src.Glean import logger
 from torch.utils import data
+import mlflow
+import mlflow.pytorch
+from urllib.parse import urlparse
 from sklearn.metrics import recall_score, precision_score, f1_score
 
 class Evaluation:
@@ -62,4 +65,20 @@ class Evaluation:
         # criterion = FocalLoss(alpha=2, gamma=5)
 
         test_accuracy, test_loss, test_recall, test_precision, test_f1 = self.evaluate(relie, test_data, criterion)
+        mlflow.set_registry_uri(self.config.mlflow_uri)
+        tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+
+        with mlflow.start_run():
+            mlflow.log_params(self.config.all_params)
+            mlflow.log_metrics({
+                "Test Accuracy": test_accuracy,
+                "Test Loss": test_loss,
+                "Test Recall": test_recall,
+                "Test Precision": test_precision,
+                "Test F1": test_f1
+            })
+            if tracking_url_type_store != "file":
+                mlflow.pytorch.log_model(relie, "model", registered_model_name="TransformerModel")
+            else:
+                mlflow.pytorch.log_model(relie, "model")
         logger.info(f"Test Accuracy: {test_accuracy} Test Loss: {test_loss} Test Recall: {test_recall} Test Precision {test_precision} Test F1 {test_f1}")

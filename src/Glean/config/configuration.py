@@ -83,7 +83,9 @@ class ConfigurationManager:
             vocab_size=self.params.VOCAB_SIZE,
             batch_size=self.params.BATCH_SIZE,
             epochs=self.params.EPOCHS,
-            lr=self.params.LR
+            lr=self.params.LR,
+            mlflow_uri="https://dagshub.com/shauryat1298/Glean-Document-Understanding.mlflow",
+            all_params=self.params
         )
 
         return train_model_config
@@ -95,6 +97,8 @@ class ConfigurationManager:
 
         evalutate_config = EvaluationConfig(
             root_dir=config.root_dir,
-            best_model_dir=config.best_model
+            best_model_dir=config.best_model,
+            all_params=self.params,
+            mlflow_uri="https://dagshub.com/shauryat1298/Glean-Document-Understanding.mlflow"
         )
         return evalutate_config

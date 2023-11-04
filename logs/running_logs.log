@@ -1246,3 +1246,64 @@ AttributeError: 'EvaluationConfig' object has no attribute 'batch_size'
 [2023-11-04 04:29:01,355: INFO: main: >>>>>> stage Evaluation completed <<<<<<
 
 x======x]
+[2023-11-04 14:56:04,752: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 14:56:04,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 14:56:04,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 14:56:04,752: INFO: common: created directory at: artifacts]
+[2023-11-04 14:56:04,752: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 14:56:04,768: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 14:56:04,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 14:56:04,768: INFO: common: created directory at: artifacts]
+[2023-11-04 14:56:04,768: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 14:56:04,768: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 14:56:09,000: INFO: model_evaluation: Test Accuracy: 0.8010130246020261 Test Loss: 0.12005729527635885 Test Recall: 0.898989898989899 Test Precision 0.2514124293785311 Test F1 0.39293598233995586]
+[2023-11-04 14:56:09,000: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]
+[2023-11-04 18:11:15,868: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 18:11:15,871: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:11:15,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:11:15,876: INFO: common: created directory at: artifacts]
+[2023-11-04 18:11:15,876: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 18:11:15,877: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:11:15,878: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:11:15,878: INFO: common: created directory at: artifacts]
+[2023-11-04 18:11:15,878: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 18:11:15,879: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 18:11:19,287: INFO: model_evaluation: Test Accuracy: 0.808972503617945 Test Loss: 0.11849632087852179 Test Recall: 0.8888888888888888 Test Precision 0.25806451612903225 Test F1 0.39999999999999997]
+[2023-11-04 18:11:19,288: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]
+[2023-11-04 18:17:09,474: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 18:17:09,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:17:09,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:17:09,477: INFO: common: created directory at: artifacts]
+[2023-11-04 18:17:09,477: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 18:17:09,479: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:17:09,479: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:17:09,481: INFO: common: created directory at: artifacts]
+[2023-11-04 18:17:09,481: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 18:17:09,481: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 18:17:18,626: ERROR: main: 'Evaluation' object has no attribute 'model']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 69, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_06_evaluation.py", line 15, in main
+    evaluation.evaluate_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\model_evaluation.py", line 80, in evaluate_model
+    mlflow.pytorch.log_model(self.model, "model", registered_model_name="TransformerModel")
+AttributeError: 'Evaluation' object has no attribute 'model'
+[2023-11-04 18:28:45,328: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 18:28:45,330: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:28:45,330: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:28:45,330: INFO: common: created directory at: artifacts]
+[2023-11-04 18:28:45,332: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 18:28:45,333: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 18:28:45,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 18:28:45,334: INFO: common: created directory at: artifacts]
+[2023-11-04 18:28:45,334: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 18:28:45,334: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 18:28:53,304: INFO: model_evaluation: Test Accuracy: 0.8039073806078147 Test Loss: 0.12551818619704266 Test Recall: 0.8787878787878788 Test Precision 0.2514450867052023 Test F1 0.3910112359550562]
+[2023-11-04 18:28:53,305: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]
