@@ -21,7 +21,7 @@ extract_candidates:
   candidates_dir: artifacts/extract_candidates
 
 train_model:
-  root_dir: artifacts/train_model
+  root_dir: artifacts/best_model
   cached_data_dir: artifacts/cached_data
   ground_truth_dir: artifacts/ground_truth_annotations
   candidates_dir: artifacts/extract_candidates

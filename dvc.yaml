@@ -1,0 +1,91 @@
+stages:
+  prepare_split:
+    cmd: python src/Glean/pipeline/stage_01_prepare_split.py
+    deps:
+      - src/Glean/pipeline/stage_01_prepare_split.py
+      - config/config.yaml
+    outs:
+      - artifacts/prepare_split
+
+  
+  generate_ocr_results:
+    cmd: python src/Glean/pipeline/stage_02_generate_ocr_results.py
+    deps:
+      - src/Glean/pipeline/stage_02_generate_ocr_results.py
+      - src/Glean/config/configuration.py
+      - config/config.yaml
+
+    outs:
+      - artifacts/generate_ocr_results
+
+  extract_candidates:
+    cmd: python src/Glean/pipeline/stage_03_extract_candidates.py
+    deps:
+      - src/Glean/pipeline/stage_03_extract_candidates.py
+      - src/Glean/config/configuration.py
+      - config/config.yaml
+
+    outs:
+      - artifacts/extract_candidates
+  
+  ground_truth_annotations:
+    cmd: python src/Glean/pipeline/stage_04_ground_truth_annotations.py
+    deps:
+      - src/Glean/pipeline/stage_04_ground_truth_annotations.py
+      - src/Glean/config/configuration.py
+      - config/config.yaml
+
+    outs:
+      - artifacts/ground_truth_annotations
+  
+
+  train:
+    cmd: python src/cnnClassifier/pipeline/stage_05_train.py
+    deps:
+      - src/cnnClassifier/pipeline/stage_05_train.py
+      - src/Glean/config/configuration.py
+      - config/config.yaml
+      - network/dataset.py
+      - network/model.py
+      - network/neighbour_attention.py
+      - network/neighbour_embedding.py
+      - artifacts/prepare_split
+      - artifacts/generate_ocr_results
+      - artifacts/extract_candidates
+      - artifacts/ground_truth_annotations
+      - src/Glean/utils/annotation_parser.py
+      - src/Glean/utils/candidate.py
+      - src/Glean/utils/common.py
+      - src/Glean/utils/evaluate.py
+      - src/Glean/utils/Neighbour.py
+      - src/Glean/utils/operations.py
+      - src/Glean/utils/preprocess.py
+      - src/Glean/utils/str_utils.py
+      - src/Glean/utils/vocabulary.py
+    params:
+      - NEIGHBOURS
+      - HEADS
+      - EMBEDDING_SIZE
+      - VOCAB_SIZE
+      - BATCH_SIZE
+      - EPOCHS
+      - LR
+    outs:
+      - artifacts/train_model/model.h5
+  
+
+  # evaluation:
+  #   cmd: python src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+  #   deps:
+  #     - src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+  #     - config/config.yaml
+  #     - network/dataset.py
+  #     - network/model.py
+  #     - network/neighbour_attention.py
+  #     - 
+  #   params:
+  #     - IMAGE_SIZE
+  #     - BATCH_SIZE
+  #   metrics:
+  #     - scores.json:
+  #         cache: False

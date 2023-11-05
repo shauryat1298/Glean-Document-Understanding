@@ -6,60 +6,60 @@ from src.Glean.pipeline.stage_03_extract_candidates import ExtractCandidatesPipe
 from src.Glean.pipeline.stage_05_train import TrainModelPipeline
 from src.Glean.pipeline.stage_06_evaluation import EvaluationPipeline
 
-# STAGE_NAME = "Prepare Split"
+STAGE_NAME = "Prepare Split"
 
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     obj = PrepareSplitPipeline()
-#     obj.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = PrepareSplitPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Generate OCR Results"
+STAGE_NAME = "Generate OCR Results"
 
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     obj = GenerateOCRResultsPipeline()
-#     obj.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = GenerateOCRResultsPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Ground Truth Annotations"
+STAGE_NAME = "Ground Truth Annotations"
 
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     obj = GroundTruthAnnotationsPipeline()
-#     obj.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = GroundTruthAnnotationsPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Extract Candidates"
+STAGE_NAME = "Extract Candidates"
 
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     obj = ExtractCandidatesPipeline()
-#     obj.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = ExtractCandidatesPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Train Model"
+STAGE_NAME = "Train Model"
 
-# try:
-#     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-#     obj = TrainModelPipeline()
-#     obj.main()
-#     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = TrainModelPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
 STAGE_NAME = "Evaluation"
 

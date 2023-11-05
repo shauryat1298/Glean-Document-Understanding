@@ -1307,3 +1307,104 @@ AttributeError: 'Evaluation' object has no attribute 'model'
 [2023-11-04 18:28:53,305: INFO: main: >>>>>> stage Evaluation completed <<<<<<
 
 x======x]
+[2023-11-04 19:27:57,070: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 19:27:57,072: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:27:57,073: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:27:57,073: INFO: common: created directory at: artifacts]
+[2023-11-04 19:27:57,073: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 19:27:57,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:27:57,076: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:27:57,076: INFO: common: created directory at: artifacts]
+[2023-11-04 19:27:57,077: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 19:27:57,085: INFO: dataset: Preprocessed data not available]
+[2023-11-04 19:27:57,085: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\val.txt']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 69, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_06_evaluation.py", line 15, in main
+    evaluation.evaluate_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\model_evaluation.py", line 58, in evaluate_model
+    doc_data = dataset.DocumentsDataset(config=train_config, split_name='val')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 31, in __init__
+    annotation, classes_count, class_mapping = annotation_parser.get_data(self.config, split_name)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\annotation_parser.py", line 15, in get_data
+    with open(split_file_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\val.txt'
+[2023-11-04 19:28:24,038: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-04 19:28:24,040: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:28:24,041: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:28:24,042: INFO: common: created directory at: artifacts]
+[2023-11-04 19:28:24,042: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-04 19:28:24,049: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-04 19:28:24,049: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-04 19:28:24,049: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-04 19:28:24,051: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-04 19:28:24,052: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:28:24,053: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:28:24,054: INFO: common: created directory at: artifacts]
+[2023-11-04 19:28:24,054: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-04 19:28:59,363: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-04 19:28:59,364: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-04 19:28:59,364: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-04 19:28:59,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:28:59,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:28:59,368: INFO: common: created directory at: artifacts]
+[2023-11-04 19:28:59,368: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-04 19:29:06,622: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-04 19:29:06,622: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-04 19:29:06,622: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-04 19:29:06,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:29:06,625: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:29:06,625: INFO: common: created directory at: artifacts]
+[2023-11-04 19:29:06,626: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-04 19:29:31,208: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-04 19:29:31,208: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-04 19:29:31,208: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-04 19:29:31,210: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:29:31,211: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:29:31,212: INFO: common: created directory at: artifacts]
+[2023-11-04 19:29:31,212: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 19:29:31,213: INFO: dataset: Preprocessed data not available]
+[2023-11-04 19:29:36,992: INFO: preprocess: (2751, 1)]
+[2023-11-04 19:29:36,993: INFO: dataset: Saving Cache..]
+[2023-11-04 19:29:37,007: INFO: dataset: Done !!]
+[2023-11-04 19:29:37,018: INFO: dataset: Preprocessed data not available]
+[2023-11-04 19:29:39,783: INFO: preprocess: (1382, 1)]
+[2023-11-04 19:29:39,783: INFO: dataset: Saving Cache..]
+[2023-11-04 19:29:39,788: INFO: dataset: Done !!]
+[2023-11-04 19:31:03,499: INFO: train:    training_recall  training_precision  training_f1  validation_recall  validation_precision  validation_f1
+0         0.517766            0.600000     0.555858           0.070707              0.411765       0.120690
+1         0.796954            0.592453     0.679654           0.353535              0.296610       0.322581
+2         0.939086            0.618729     0.745968           0.828283              0.403941       0.543046
+3         0.979695            0.616613     0.756863           0.424242              0.285714       0.341463
+4         0.974619            0.619355     0.757396           0.474747              0.330986       0.390041
+5         1.000000            0.621451     0.766537           0.424242              0.341463       0.378378
+6         1.000000            0.621451     0.766537           0.909091              0.424528       0.578778
+7         1.000000            0.619497     0.765049           0.363636              0.321429       0.341232
+8         0.979695            0.616613     0.756863           0.787879              0.356164       0.490566
+9         0.994924            0.612500     0.758221           0.595960              0.380645       0.464567]
+[2023-11-04 19:31:03,517: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-04 19:31:03,517: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-04 19:31:03,520: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:31:03,520: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:31:03,521: INFO: common: created directory at: artifacts]
+[2023-11-04 19:31:03,521: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-04 19:31:03,524: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-04 19:31:03,524: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-04 19:31:03,524: INFO: common: created directory at: artifacts]
+[2023-11-04 19:31:03,524: INFO: common: created directory at: artifacts/train_model]
+[2023-11-04 19:31:03,524: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-04 19:31:08,479: INFO: model_evaluation: Test Accuracy: 0.9037626628075254 Test Loss: 0.07502927577754653 Test Recall: 0.9191919191919192 Test Precision 0.4212962962962963 Test F1 0.5777777777777777]
+[2023-11-04 19:31:08,480: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]
