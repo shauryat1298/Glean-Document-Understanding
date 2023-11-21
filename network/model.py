@@ -30,6 +30,7 @@ class Model(nn.Module):
 
         # Neighbour embeddings
         neighbour_embeds = self.neighbour_embeddings(neighbour_words, neighbour_positions)
+        # print(neighbour_embeds)
 
         # Attention encodings
         self_attention = self.attention_encodings(neighbour_embeds, neighbour_embeds, neighbour_embeds, mask=masks)
@@ -56,3 +57,4 @@ class Model(nn.Module):
         scores = (similarity + 1) / 2
 
         return scores
+    

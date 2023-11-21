@@ -5,6 +5,7 @@ from pathlib import Path
 class PrepareSplitConfig:
     root_dir: Path
     source_dir: Path
+    source_dir_full: Path
     save_dir: Path
 
 @dataclass(frozen=True)

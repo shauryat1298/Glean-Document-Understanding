@@ -1,5 +1,5 @@
 from src.Glean.config.configuration import ConfigurationManager
-from src.Glean.components.prepare_split import PrepareSplit
+from src.Glean.components.prepare_split_full import PrepareSplit
 from src.Glean import logger
 
 STAGE_NAME = "Prepare Split"

@@ -20,6 +20,7 @@ class ConfigurationManager:
         prepare_split_config = PrepareSplitConfig(
             root_dir=config.root_dir,
             source_dir=config.source_dir,
+            source_dir_full=config.source_dir_full,
             save_dir=config.save_dir
         )
 
