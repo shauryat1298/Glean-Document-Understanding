@@ -4,7 +4,6 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-
 class NeighbourEmbedding(nn.Module):
 
     def __init__(self, vocab_size, dimension):
