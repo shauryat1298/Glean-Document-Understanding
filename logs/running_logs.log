@@ -2524,3 +2524,623 @@ x======x]
 [2023-11-20 18:28:48,398: INFO: preprocess: (1382, 1)]
 [2023-11-20 18:28:48,399: INFO: dataset: Saving Cache..]
 [2023-11-20 18:28:48,403: INFO: dataset: Done !!]
+[2023-11-20 18:44:20,674: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-20 18:44:20,677: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:44:20,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:44:20,678: INFO: common: created directory at: artifacts]
+[2023-11-20 18:44:20,678: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-20 18:44:20,679: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-20 18:44:20,680: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-20 18:44:20,680: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-20 18:44:20,680: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-20 18:44:20,682: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:44:20,684: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:44:20,684: INFO: common: created directory at: artifacts]
+[2023-11-20 18:44:20,684: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-20 18:44:51,545: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-20 18:44:51,545: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-20 18:44:51,546: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-20 18:44:51,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:44:51,549: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:44:51,550: INFO: common: created directory at: artifacts]
+[2023-11-20 18:44:51,551: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-20 18:44:58,300: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-20 18:44:58,301: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-20 18:44:58,301: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 18:44:58,303: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:44:58,303: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:44:58,304: INFO: common: created directory at: artifacts]
+[2023-11-20 18:44:58,304: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 18:45:19,516: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 18:45:19,516: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 18:45:19,517: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 18:45:19,518: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:45:19,519: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:45:19,519: INFO: common: created directory at: artifacts]
+[2023-11-20 18:45:19,520: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 18:45:19,520: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:45:24,361: INFO: preprocess: (2751, 1)]
+[2023-11-20 18:45:24,361: INFO: dataset: Saving Cache..]
+[2023-11-20 18:45:24,370: INFO: dataset: Done !!]
+[2023-11-20 18:45:24,383: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:45:26,680: INFO: preprocess: (1382, 1)]
+[2023-11-20 18:45:26,680: INFO: dataset: Saving Cache..]
+[2023-11-20 18:45:26,685: INFO: dataset: Done !!]
+[2023-11-20 18:47:18,710: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-20 18:47:18,713: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:47:18,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:47:18,714: INFO: common: created directory at: artifacts]
+[2023-11-20 18:47:18,714: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-20 18:47:18,715: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-20 18:47:18,716: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-20 18:47:18,716: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-20 18:47:18,716: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-20 18:47:18,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:47:18,718: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:47:18,719: INFO: common: created directory at: artifacts]
+[2023-11-20 18:47:18,719: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-20 18:47:49,901: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-20 18:47:49,901: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-20 18:47:49,901: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-20 18:47:49,903: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:47:49,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:47:49,904: INFO: common: created directory at: artifacts]
+[2023-11-20 18:47:49,906: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-20 18:47:56,551: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-20 18:47:56,551: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-20 18:47:56,551: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 18:47:56,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:47:56,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:47:56,555: INFO: common: created directory at: artifacts]
+[2023-11-20 18:47:56,555: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 18:48:19,451: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 18:48:19,451: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 18:48:19,452: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 18:48:19,454: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:48:19,455: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:48:19,455: INFO: common: created directory at: artifacts]
+[2023-11-20 18:48:19,455: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 18:48:19,456: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:48:24,551: INFO: preprocess: (2751, 1)]
+[2023-11-20 18:48:24,552: INFO: dataset: Saving Cache..]
+[2023-11-20 18:48:24,561: INFO: dataset: Done !!]
+[2023-11-20 18:48:24,577: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:48:26,979: INFO: preprocess: (1382, 1)]
+[2023-11-20 18:48:26,979: INFO: dataset: Saving Cache..]
+[2023-11-20 18:48:26,985: INFO: dataset: Done !!]
+[2023-11-20 18:49:03,145: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 18:49:03,147: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:49:03,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:49:03,151: INFO: common: created directory at: artifacts]
+[2023-11-20 18:49:03,152: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 18:49:03,152: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 18:49:03,224: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 18:49:34,340: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 18:49:34,342: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:49:34,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:49:34,344: INFO: common: created directory at: artifacts]
+[2023-11-20 18:49:34,344: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 18:49:34,344: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 18:49:34,412: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 18:49:52,956: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-20 18:49:52,959: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:49:52,959: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:49:52,960: INFO: common: created directory at: artifacts]
+[2023-11-20 18:49:52,960: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-20 18:49:52,962: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-20 18:49:52,963: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-20 18:49:52,963: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-20 18:49:52,963: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-20 18:49:52,965: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:49:52,966: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:49:52,966: INFO: common: created directory at: artifacts]
+[2023-11-20 18:49:52,967: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-20 18:50:24,696: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-20 18:50:24,697: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-20 18:50:24,697: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-20 18:50:24,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:50:24,699: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:50:24,700: INFO: common: created directory at: artifacts]
+[2023-11-20 18:50:24,702: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-20 18:50:31,423: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-20 18:50:31,423: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-20 18:50:31,423: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 18:50:31,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:50:31,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:50:31,427: INFO: common: created directory at: artifacts]
+[2023-11-20 18:50:31,427: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 18:50:52,355: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 18:50:52,356: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 18:50:52,356: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 18:50:52,358: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 18:50:52,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 18:50:52,360: INFO: common: created directory at: artifacts]
+[2023-11-20 18:50:52,360: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 18:50:52,361: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:50:57,447: INFO: preprocess: (2751, 1)]
+[2023-11-20 18:50:57,447: INFO: dataset: Saving Cache..]
+[2023-11-20 18:50:57,456: INFO: dataset: Done !!]
+[2023-11-20 18:50:57,471: INFO: dataset: Preprocessed data not available]
+[2023-11-20 18:50:59,886: INFO: preprocess: (1382, 1)]
+[2023-11-20 18:50:59,886: INFO: dataset: Saving Cache..]
+[2023-11-20 18:50:59,891: INFO: dataset: Done !!]
+[2023-11-20 20:34:33,795: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-20 20:34:33,801: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:34:33,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:34:33,801: INFO: common: created directory at: artifacts]
+[2023-11-20 20:34:33,801: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-20 20:34:33,817: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-20 20:34:33,817: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-20 20:34:33,817: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-20 20:34:33,817: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-20 20:34:33,817: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:34:33,817: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:34:33,817: INFO: common: created directory at: artifacts]
+[2023-11-20 20:34:33,817: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-20 20:35:11,170: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-20 20:35:11,170: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-20 20:35:11,170: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-20 20:35:11,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:35:11,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:35:11,175: INFO: common: created directory at: artifacts]
+[2023-11-20 20:35:11,175: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-20 20:35:18,995: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-20 20:35:18,995: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-20 20:35:18,995: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 20:35:18,995: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:35:18,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:35:18,995: INFO: common: created directory at: artifacts]
+[2023-11-20 20:35:18,995: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 20:35:46,645: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 20:35:46,645: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 20:35:46,645: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 20:35:46,645: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:35:46,645: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:35:46,645: INFO: common: created directory at: artifacts]
+[2023-11-20 20:35:46,645: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 20:35:46,645: INFO: dataset: Preprocessed data not available]
+[2023-11-20 20:35:48,715: ERROR: main: name 'vocabulary' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 58, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 114, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 35, in __init__
+    annotation, self.vocab = Neighbour.attach_neighbour(annotation, config.ocr_dir, vocab_size=config.vocab_size)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\Neighbour.py", line 54, in attach_neighbour
+    vocab_builder = vocabulary.VocabularyBuilder(max_size=vocab_size)
+NameError: name 'vocabulary' is not defined
+[2023-11-20 20:36:46,675: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 20:36:46,675: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:36:46,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:36:46,675: INFO: common: created directory at: artifacts]
+[2023-11-20 20:36:46,675: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 20:36:57,365: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 20:36:57,365: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 20:36:57,367: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 20:36:57,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:36:57,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:36:57,367: INFO: common: created directory at: artifacts]
+[2023-11-20 20:36:57,367: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 20:36:57,367: INFO: dataset: Preprocessed data not available]
+[2023-11-20 20:36:58,275: ERROR: main: microsoft/layoutlmv3-base-uncased is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`]
+Traceback (most recent call last):
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\utils\_errors.py", line 261, in hf_raise_for_status
+    response.raise_for_status()
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/microsoft/layoutlmv3-base-uncased/resolve/main/tokenizer_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\transformers\utils\hub.py", line 430, in cached_file
+    resolved_file = hf_hub_download(
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\utils\_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\file_download.py", line 1346, in hf_hub_download
+    raise head_call_error
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\file_download.py", line 1232, in hf_hub_download
+    metadata = get_hf_file_metadata(
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\utils\_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\file_download.py", line 1608, in get_hf_file_metadata
+    hf_raise_for_status(r)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\huggingface_hub\utils\_errors.py", line 293, in hf_raise_for_status
+    raise RepositoryNotFoundError(message, response) from e
+huggingface_hub.utils._errors.RepositoryNotFoundError: 401 Client Error. (Request ID: Root=1-655c17ca-21be5abb10e185eb3439c9ff;cc950ec9-9f99-47b4-adc6-c8543f8e7a00)
+
+Repository Not Found for url: https://huggingface.co/microsoft/layoutlmv3-base-uncased/resolve/main/tokenizer_config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+Invalid username or password.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 58, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 114, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 35, in __init__
+    annotation, self.vocab = Neighbour.attach_neighbour(annotation, config.ocr_dir, vocab_size=config.vocab_size)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\Neighbour.py", line 54, in attach_neighbour
+    vocab_builder = vocabulary_lmv3.VocabularyBuilder(max_size=vocab_size)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\vocabulary_lmv3.py", line 15, in __init__
+    self.tokenizer = LayoutLMv3Tokenizer.from_pretrained("microsoft/layoutlmv3-base-uncased")
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\transformers\tokenization_utils_base.py", line 1947, in from_pretrained
+    resolved_config_file = cached_file(
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\transformers\utils\hub.py", line 451, in cached_file
+    raise EnvironmentError(
+OSError: microsoft/layoutlmv3-base-uncased is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+[2023-11-20 20:52:29,935: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-20 20:52:29,935: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:52:29,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:52:29,935: INFO: common: created directory at: artifacts]
+[2023-11-20 20:52:29,935: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-20 20:52:40,770: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-20 20:52:40,770: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-20 20:52:40,770: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-20 20:52:40,770: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 20:52:40,770: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 20:52:40,775: INFO: common: created directory at: artifacts]
+[2023-11-20 20:52:40,775: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 20:52:40,775: INFO: dataset: Preprocessed data not available]
+[2023-11-20 20:52:45,568: INFO: preprocess: (2751, 1)]
+[2023-11-20 20:52:45,568: INFO: dataset: Saving Cache..]
+[2023-11-20 20:52:45,585: INFO: dataset: Done !!]
+[2023-11-20 20:52:45,599: INFO: dataset: Preprocessed data not available]
+[2023-11-20 20:52:48,595: INFO: preprocess: (1382, 1)]
+[2023-11-20 20:52:48,595: INFO: dataset: Saving Cache..]
+[2023-11-20 20:52:48,605: INFO: dataset: Done !!]
+[2023-11-20 20:52:53,945: ERROR: main: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+]
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 58, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 124, in train_model
+    history = self.train(relie, training_data, validation_data, self.config.epochs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 56, in train
+    outputs = model(field, candidate, words, positions, masks)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\model.py", line 32, in forward
+    neighbour_embeds = self.neighbour_embeddings(neighbour_words, neighbour_positions)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\neighbour_embedding.py", line 25, in forward
+    pos = self.dropout1(pos)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\modules\dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "C:\Users\shaur\anaconda3\envs\glean\lib\site-packages\torch\nn\functional.py", line 1266, in dropout
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[2023-11-20 21:23:02,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 21:23:02,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 21:23:02,498: INFO: common: created directory at: artifacts]
+[2023-11-20 21:23:02,500: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 21:23:20,779: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 21:23:20,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 21:23:20,783: INFO: common: created directory at: artifacts]
+[2023-11-20 21:23:20,783: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 21:24:06,903: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 21:24:06,906: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 21:24:06,906: INFO: common: created directory at: artifacts]
+[2023-11-20 21:24:06,912: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 21:24:26,301: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:24:26,332: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:26:30,276: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:26:30,376: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:26:34,886: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:26:34,918: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:46:01,807: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 21:46:01,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 21:46:01,808: INFO: common: created directory at: artifacts]
+[2023-11-20 21:46:01,808: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 21:46:02,356: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 21:46:02,379: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 23:17:58,973: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 23:17:58,975: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 23:17:58,976: INFO: common: created directory at: artifacts]
+[2023-11-20 23:17:58,977: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 23:17:59,411: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 23:17:59,559: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 23:58:39,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-20 23:58:39,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-20 23:58:39,863: INFO: common: created directory at: artifacts]
+[2023-11-20 23:58:39,863: INFO: common: created directory at: artifacts/best_model]
+[2023-11-20 23:58:39,896: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-20 23:58:39,928: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:00:42,620: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:00:42,629: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:00:42,630: INFO: common: created directory at: artifacts]
+[2023-11-21 00:00:42,631: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:00:43,022: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:00:43,044: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:08:43,061: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:08:43,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:08:43,063: INFO: common: created directory at: artifacts]
+[2023-11-21 00:08:43,063: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:08:43,239: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:08:43,259: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:09:10,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:09:10,570: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:09:10,571: INFO: common: created directory at: artifacts]
+[2023-11-21 00:09:10,571: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:09:10,581: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:09:10,606: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:11:23,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:11:23,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:11:23,490: INFO: common: created directory at: artifacts]
+[2023-11-21 00:11:23,491: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:11:23,728: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:11:23,748: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:11:45,526: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:11:45,528: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:11:45,528: INFO: common: created directory at: artifacts]
+[2023-11-21 00:11:45,528: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:11:45,539: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:11:45,560: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:13:34,216: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:13:34,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:13:34,216: INFO: common: created directory at: artifacts]
+[2023-11-21 00:13:34,229: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:13:34,236: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:13:34,257: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:24:07,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:24:07,172: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:24:07,173: INFO: common: created directory at: artifacts]
+[2023-11-21 00:24:07,174: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:24:07,183: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:24:07,206: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:30:00,979: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:30:00,988: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:30:00,988: INFO: common: created directory at: artifacts]
+[2023-11-21 00:30:00,990: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:30:01,000: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:30:01,022: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:32:24,076: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:32:24,079: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:32:24,079: INFO: common: created directory at: artifacts]
+[2023-11-21 00:32:24,080: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:32:24,090: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:32:24,113: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:35:45,833: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:35:45,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:35:45,840: INFO: common: created directory at: artifacts]
+[2023-11-21 00:35:45,841: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:35:45,844: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:35:45,871: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:38:39,612: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:38:39,613: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:38:39,614: INFO: common: created directory at: artifacts]
+[2023-11-21 00:38:39,614: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:38:40,392: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:38:40,410: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:39:41,206: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:39:41,208: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:39:41,209: INFO: common: created directory at: artifacts]
+[2023-11-21 00:39:41,209: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:39:41,596: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:39:41,615: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:42:24,064: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:42:24,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:42:24,073: INFO: common: created directory at: artifacts]
+[2023-11-21 00:42:24,073: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:42:24,083: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:42:24,101: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 00:44:51,845: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-21 00:44:51,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:44:51,845: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:44:51,845: INFO: common: created directory at: artifacts]
+[2023-11-21 00:44:51,845: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-21 00:44:51,845: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-21 00:44:51,845: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-21 00:44:51,845: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-21 00:44:51,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:44:51,845: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:44:51,861: INFO: common: created directory at: artifacts]
+[2023-11-21 00:44:51,861: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:44:51,861: INFO: dataset: Preprocessed data not available]
+[2023-11-21 00:44:51,861: ERROR: main: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\train.txt']
+Traceback (most recent call last):
+  File "C:\Users\shaur\Desktop\Glean_Implementation\main.py", line 58, in <module>
+    obj.main()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\pipeline\stage_05_train.py", line 15, in main
+    train_model.train_model()
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\components\train.py", line 114, in train_model
+    train_data = dataset.DocumentsDataset(self.config, 'train')
+  File "C:\Users\shaur\Desktop\Glean_Implementation\network\dataset.py", line 31, in __init__
+    annotation, classes_count, class_mapping = annotation_parser.get_data(self.config, split_name)
+  File "C:\Users\shaur\Desktop\Glean_Implementation\src\Glean\utils\annotation_parser.py", line 15, in get_data
+    with open(split_file_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\prepare_split\\train.txt'
+[2023-11-21 00:45:15,291: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-21 00:45:15,306: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:45:15,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:45:15,306: INFO: common: created directory at: artifacts]
+[2023-11-21 00:45:15,306: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-21 00:45:15,322: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-21 00:45:15,322: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-21 00:45:15,322: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-21 00:45:15,322: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-21 00:45:15,328: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:45:15,328: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:45:15,328: INFO: common: created directory at: artifacts]
+[2023-11-21 00:45:15,328: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-21 00:45:45,567: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-21 00:45:45,567: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-21 00:45:45,567: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-21 00:45:45,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:45:45,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:45:45,567: INFO: common: created directory at: artifacts]
+[2023-11-21 00:45:45,567: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-21 00:45:51,837: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-21 00:45:51,837: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-21 00:45:51,837: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-21 00:45:51,837: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:45:51,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:45:51,837: INFO: common: created directory at: artifacts]
+[2023-11-21 00:45:51,837: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-21 00:46:12,644: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-21 00:46:12,644: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-21 00:46:12,644: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-21 00:46:12,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:46:12,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:46:12,659: INFO: common: created directory at: artifacts]
+[2023-11-21 00:46:12,659: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:46:12,659: INFO: dataset: Preprocessed data not available]
+[2023-11-21 00:46:17,677: INFO: preprocess: (2751, 1)]
+[2023-11-21 00:46:17,677: INFO: dataset: Saving Cache..]
+[2023-11-21 00:46:17,677: INFO: dataset: Done !!]
+[2023-11-21 00:46:17,691: INFO: dataset: Preprocessed data not available]
+[2023-11-21 00:46:20,059: INFO: preprocess: (1382, 1)]
+[2023-11-21 00:46:20,059: INFO: dataset: Saving Cache..]
+[2023-11-21 00:46:20,059: INFO: dataset: Done !!]
+[2023-11-21 00:48:03,431: INFO: main: >>>>>> stage Prepare Split started <<<<<<]
+[2023-11-21 00:48:03,431: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:48:03,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:48:03,431: INFO: common: created directory at: artifacts]
+[2023-11-21 00:48:03,431: INFO: common: created directory at: artifacts/prepare_split]
+[2023-11-21 00:48:03,447: INFO: prepare_split: Saved training split into artifacts/prepare_split/train.txt]
+[2023-11-21 00:48:03,447: INFO: prepare_split: Saved validation split into artifacts/prepare_split/val.txt]
+[2023-11-21 00:48:03,447: INFO: main: >>>>>> stage Prepare Split completed <<<<<<
+
+x======x]
+[2023-11-21 00:48:03,447: INFO: main: >>>>>> stage Generate OCR Results started <<<<<<]
+[2023-11-21 00:48:03,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:48:03,447: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:48:03,447: INFO: common: created directory at: artifacts]
+[2023-11-21 00:48:03,447: INFO: common: created directory at: artifacts/generate_ocr_results]
+[2023-11-21 00:48:33,383: INFO: generate_ocr_results: OCR Results saved to artifacts/generate_ocr_results]
+[2023-11-21 00:48:33,383: INFO: main: >>>>>> stage Generate OCR Results completed <<<<<<
+
+x======x]
+[2023-11-21 00:48:33,383: INFO: main: >>>>>> stage Ground Truth Annotations started <<<<<<]
+[2023-11-21 00:48:33,383: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:48:33,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:48:33,383: INFO: common: created directory at: artifacts]
+[2023-11-21 00:48:33,398: INFO: common: created directory at: artifacts/ground_truth_annotations]
+[2023-11-21 00:48:39,881: INFO: ground_truth_annotations: Ground Truth Annotations saved to artifacts/ground_truth_annotations]
+[2023-11-21 00:48:39,881: INFO: main: >>>>>> stage Ground Truth Annotations completed <<<<<<
+
+x======x]
+[2023-11-21 00:48:39,881: INFO: main: >>>>>> stage Extract Candidates started <<<<<<]
+[2023-11-21 00:48:39,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:48:39,881: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:48:39,881: INFO: common: created directory at: artifacts]
+[2023-11-21 00:48:39,881: INFO: common: created directory at: artifacts/extract_candidates]
+[2023-11-21 00:49:01,456: INFO: extract_candidates: Candidates saved to artifacts\extract_candidates]
+[2023-11-21 00:49:01,456: INFO: main: >>>>>> stage Extract Candidates completed <<<<<<
+
+x======x]
+[2023-11-21 00:49:01,470: INFO: main: >>>>>> stage Train Model started <<<<<<]
+[2023-11-21 00:49:01,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 00:49:01,471: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 00:49:01,471: INFO: common: created directory at: artifacts]
+[2023-11-21 00:49:01,471: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 00:49:01,471: INFO: dataset: Preprocessed data not available]
+[2023-11-21 00:49:06,183: INFO: preprocess: (2751, 1)]
+[2023-11-21 00:49:06,183: INFO: dataset: Saving Cache..]
+[2023-11-21 00:49:06,198: INFO: dataset: Done !!]
+[2023-11-21 00:49:06,214: INFO: dataset: Preprocessed data not available]
+[2023-11-21 00:49:08,438: INFO: preprocess: (1382, 1)]
+[2023-11-21 00:49:08,438: INFO: dataset: Saving Cache..]
+[2023-11-21 00:49:08,438: INFO: dataset: Done !!]
+[2023-11-21 01:09:02,401: INFO: train:    training_recall  training_precision  training_f1  validation_recall  validation_precision  validation_f1
+0         0.746193            0.574219     0.649007           0.777778              0.631148       0.696833
+1         0.969543            0.618123     0.754941           0.595960              0.634409       0.614583
+2         0.959391            0.627907     0.759036           0.838384              0.572414       0.680328
+3         0.994924            0.622222     0.765625           0.323232              0.410256       0.361582
+4         1.000000            0.623418     0.768031           0.171717              0.414634       0.242857
+5         0.989848            0.621019     0.763209           0.878788              0.514793       0.649254
+6         1.000000            0.623418     0.768031           0.858586              0.505952       0.636704
+7         1.000000            0.623418     0.768031           0.858586              0.521472       0.648855
+8         0.994924            0.622222     0.765625           0.828283              0.554054       0.663968
+9         1.000000            0.623418     0.768031           0.505051              0.467290       0.485437]
+[2023-11-21 01:09:02,425: INFO: main: >>>>>> stage Train Model completed <<<<<<
+
+x======x]
+[2023-11-21 01:09:02,425: INFO: main: >>>>>> stage Evaluation started <<<<<<]
+[2023-11-21 01:09:02,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 01:09:02,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 01:09:02,425: INFO: common: created directory at: artifacts]
+[2023-11-21 01:09:02,425: INFO: common: created directory at: artifacts/evaluation]
+[2023-11-21 01:09:02,440: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-21 01:09:02,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-21 01:09:02,440: INFO: common: created directory at: artifacts]
+[2023-11-21 01:09:02,440: INFO: common: created directory at: artifacts/best_model]
+[2023-11-21 01:09:02,440: INFO: dataset: Preprocessed data available, Loading data from cache...]
+[2023-11-21 01:09:10,742: INFO: model_evaluation: Test Accuracy: 0.9312590448625181 Test Loss: 0.0659181422172532 Test Recall: 0.8787878787878788 Test Precision 0.5117647058823529 Test F1 0.6468401486988847]
+[2023-11-21 01:09:10,742: INFO: main: >>>>>> stage Evaluation completed <<<<<<
+
+x======x]

@@ -12,7 +12,7 @@ class VocabularyBuilder():
         self._vocabulary = { '<PAD>':0, '<NUMBER>':1, '<RARE>':2 }
         self.built = False
 
-        self.tokenizer = LayoutLMv3Tokenizer.from_pretrained("microsoft/layoutlmv3-base-uncased")
+        self.tokenizer = LayoutLMv3Tokenizer.from_pretrained("nielsr/layoutlmv3-finetuned-funsd")
         self.layoutlmv3_vocab = self.tokenizer.get_vocab()
         
     def add(self, word):
@@ -27,6 +27,7 @@ class VocabularyBuilder():
         self.built = True
 
     def build(self):
+        self.load_layoutlmv3_vocabulary()
         if not self.built:
             warnings.warn(
                 "The vocabulary is not built. Use VocabularyBuilder.load_layoutlmv3_vocabulary() or add words before building. Returning default vocabulary.", Warning)
@@ -39,4 +40,3 @@ class VocabularyBuilder():
             return self._vocabulary
         else:
             return self._vocabulary
-

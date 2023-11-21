@@ -45,7 +45,7 @@ class TrainModel:
             y_labels = []
 
             for field, candidate, words, positions, masks, labels in tqdm(train_dataloader, desc="Epoch %s" % epoch):
-                print(field.dim())
+                # print(field.dim())
                 field = field.to(device)
                 candidate = candidate.to(device)
                 words = words.to(device)
